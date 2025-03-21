@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #0c0c1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 360px;
+    background: #1a1a2e;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.header {
+    position: relative;
+    width: 100%;
+}
+
+.game-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+.back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+
+.content {
+    background: rgba(255, 255, 255, 0.87);
+    padding: 16px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.title {
+    font-size: 15px;
+    font-weight: 600;
+    color: #0f0fae;
+    text-transform: uppercase;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.subtitle {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    color: #222;
+}
+
+.description {
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+}
+
+.features {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+.size {
+    font-size: 14px;
+    color: #444;
+    margin-top: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.btn {
+    flex: 1;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.demo {
+    background: white;
+    color: #2727c6;
+    border: 2px solid #1a1ad3;
+}
+
+.install {
+    background: #4b5efc;
+    color: rgba(255, 255, 255, 0.879);
+    margin-left: 10px;
+}
